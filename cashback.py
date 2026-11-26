@@ -9,5 +9,4 @@ def calculate_cashback(price: float) -> float:
 
 
 def calculate_discount(price: float, discount_percent: int) -> float:
-    """Return a price after applying a percentage discount."""
     return round(price * (1 - discount_percent / 100), 2)

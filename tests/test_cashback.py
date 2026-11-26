@@ -7,3 +7,7 @@ def test_calculate_cashback():
 
 def test_calculate_discount():
     assert calculate_discount(200.0, 15) == 170.0
+
+
+def test_calculate_discount():
+    assert calculate_discount(200.0, 15) == 170.0
